@@ -1,0 +1,21 @@
+.produto {
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.produto > img.produto-item {
+    border: 1px solid blue;
+    min-width: 20%;
+    min-height: 20%;
+}
+
+.produto > p.produto-item {
+    border: 1px solid turquoise;
+}
+
+.produto > p.produto-item-preco {
+    color: #636060;
+}
